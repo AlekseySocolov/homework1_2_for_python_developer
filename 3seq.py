@@ -19,4 +19,4 @@ for i in range(int(amount_of_elements_2)):
         str_element = input(f'Введите {i + 1}-й элемент (цифру): ')
     else:
         set_elements_2.add(str_element)
-print('Результат: ',','.join(set_elements_1-set_elements_2))
+print('Результат: ',','.join(set_elements_1 - set_elements_2))
